@@ -8,12 +8,15 @@ export default function Hero({ onExploreClick }) {
       className="relative min-h-screen flex items-center text-white pt-28 pb-20 overflow-hidden bg-neutral-950"
     >
 
-      {/* Hero Background Marble Block Image */}
+      {/* Cinematic Looping Background Video */}
       <div className="absolute inset-0 z-0 overflow-hidden select-none pointer-events-none">
-        <img
-          src="/marbal image.webp"
-          alt="Pyros Marble & Granite Banner"
-          className="w-full h-full object-cover opacity-65 scale-102"
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover opacity-60 scale-102"
+          src="https://demo.awaikenthemes.com/assets/videos/tilux-hero-video.mp4"
         />
       </div>
 
@@ -58,8 +61,8 @@ export default function Hero({ onExploreClick }) {
 
         </div>
 
-        {/* RIGHT PANEL: Paragraph, Clients Badge & Video button (5 Columns) */}
-        <div className="lg:col-span-5 space-y-8 text-left lg:pl-6 reveal reveal-slide-right delay-200">
+        {/* RIGHT PANEL: Paragraph, Clients Badge & Marble Block Image Card (5 Columns) */}
+        <div className="lg:col-span-5 space-y-6 text-left lg:pl-6 reveal reveal-slide-right delay-200">
 
           {/* Sub-paragraph details */}
           <p className="font-inter text-sm sm:text-base text-white/80 leading-relaxed font-light tracking-wide max-w-xl">
@@ -102,6 +105,21 @@ export default function Hero({ onExploreClick }) {
               <p className="text-[10px] text-white/60 font-mono">100+ Commercial Projects Shipped</p>
             </div>
 
+          </div>
+
+          {/* Marble Block Image Card right under review text */}
+          <div className="w-full aspect-[16/10] sm:aspect-[16/9] rounded-2xl overflow-hidden border border-white/20 shadow-2xl relative group bg-neutral-900 mt-4">
+            <img 
+              src="/marbal image.webp" 
+              alt="Marble Block Slab Specimen" 
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 brightness-95" 
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+            <div className="absolute bottom-3 left-4 right-4 flex items-center justify-between">
+              <span className="text-[10px] font-mono tracking-widest text-[#D4AF37] uppercase font-bold bg-black/60 backdrop-blur-md px-2.5 py-1 rounded border border-white/10">
+                Premium Calibrated Marble Block
+              </span>
+            </div>
           </div>
 
         </div>
