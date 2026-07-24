@@ -37,13 +37,13 @@ export default function Catalog({ initialCategory = 'all', onCategoryChange, onS
         {/* Title Section */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 border-b border-[#E5E7EB] pb-8">
           <div>
-            <span className="font-outfit text-xs md:text-sm tracking-[0.25em] text-[#D4AF37] uppercase font-bold mb-2 block">Direct Factory Export Collections</span>
-            <h2 className="font-cormorant text-4xl sm:text-6xl font-medium tracking-wide text-[#1C1C21]">
-              Exquisite Marble & Granite Gallery
+            <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-semibold mb-2 block">Premium Collections</span>
+            <h2 className="font-cormorant text-4xl sm:text-5xl font-medium tracking-wide text-[#1C1C21]">
+              Exquisite Stone Gallery
             </h2>
           </div>
-          <p className="font-inter text-base md:text-lg text-[#4E4E59] max-w-xl mt-4 md:mt-0 font-normal leading-relaxed">
-            As a leading <strong className="text-[#1C1C21] font-semibold">marble slabs exporter</strong> and premier <strong className="text-[#1C1C21] font-semibold">granite slabs supplier</strong>, all our 160+ stone varieties undergo strict gangsaw thickness calibration (20mm & 30mm) and gloss luster rating checks before ocean dispatch.
+          <p className="font-inter text-xs sm:text-sm text-[#4E4E59] max-w-md mt-4 md:mt-0 font-light leading-relaxed">
+            Strict slab-level quality assessment ensures that all materials shipped comply with standard dimensions, uniform coloration, and exact thickness calibrations.
           </p>
         </div>
 

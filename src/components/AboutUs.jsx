@@ -72,12 +72,12 @@ export default function AboutUs() {
         
         {/* Header Title */}
         <div className="flex flex-col items-center text-center mb-20 reveal reveal-slide-up">
-          <span className="font-outfit text-xs md:text-sm tracking-[0.25em] text-[#D4AF37] uppercase font-bold mb-2">Udaipur Heritage & Global Operations</span>
+          <span className="font-outfit text-xs tracking-[0.25em] text-[#D4AF37] uppercase font-bold mb-2">Udaipur Heritage</span>
           <h1 className="font-cormorant text-4xl sm:text-6xl font-medium tracking-wide text-[#1C1C21]">
-            About Pyros Surfaces
+            About Pyros Stones
           </h1>
-          <p className="font-inter text-base md:text-xl text-[#4E4E59] max-w-4xl mt-4 font-normal leading-relaxed">
-            Founded in the heart of Udaipur, Rajasthan—India’s legendary natural stone manufacturing hub—Pyros Surfaces is a premier <strong className="text-[#1C1C21] font-semibold">marble exporter from India</strong> and leading <strong className="text-[#1C1C21] font-semibold">Indian granite supplier</strong>. As a recognized <strong className="text-[#1C1C21] font-semibold">natural stone exporter India</strong>, we process, calibrate, and supply 20mm & 30mm marble slabs, granite slabs, marble tiles, and granite tiles to architects, luxury developers, and distributors across Saudi Arabia, UAE, USA, UK, and 45+ countries.
+          <p className="font-inter text-sm text-[#4E4E59] max-w-3xl mt-4 font-light leading-relaxed">
+            Founded in the heart of Udaipur, Rajasthan—India's renowned hub of natural stone—Pyros Stones is a global supplier of premium natural and engineered stone, serving architects, designers, developers, contractors, and distributors across the world.
           </p>
         </div>
 
@@ -138,17 +138,17 @@ export default function AboutUs() {
           {/* RIGHT SIDE: Content & Dynamic Progress Bars (7 Columns) */}
           <div className="lg:col-span-7 space-y-8 reveal reveal-slide-right delay-200 text-left">
             <div className="space-y-4">
-              <span className="font-outfit text-xs md:text-sm tracking-widest text-[#D4AF37] uppercase font-bold">
-                Manufacturing & Export Mastery
+              <span className="font-outfit text-xs tracking-widest text-[#D4AF37] uppercase font-bold">
+                Our Purpose
               </span>
               <h2 className="font-cormorant text-3xl sm:text-5xl font-medium text-[#1C1C21] leading-tight">
-                Crafting Architectural Heritage Across Generations
+                Every stone tells a story of millions of years
               </h2>
-              <p className="font-inter text-base md:text-lg text-[#4E4E59] leading-relaxed font-normal">
-                As an experienced <strong className="text-[#1C1C21] font-semibold">granite manufacturer India</strong> and premier <strong className="text-[#1C1C21] font-semibold">marble supplier India</strong>, we bridge direct quarry extraction with state-of-the-art Italian gangsaw calibration. Every block of Statuario, Absolute Black, Black Galaxy, and Fantasy Brown is selected for slab structural integrity, tight grain density, and color uniformity.
+              <p className="font-inter text-sm text-[#4E4E59] leading-relaxed font-light">
+                At Pyros Stones, we believe every stone tells a story. Formed over millions of years by nature, each slab possesses a unique character, texture, and identity. Our purpose is to preserve that natural beauty while transforming it into world-class materials that inspire remarkable architectural and interior spaces.
               </p>
-              <p className="font-inter text-base md:text-lg text-neutral-600 leading-relaxed font-normal">
-                We take immense pride as an accredited <strong className="text-[#1C1C21] font-semibold">Marble exporter India to Saudi Arabia</strong> and <strong className="text-[#1C1C21] font-semibold">Granite exporter India to Saudi Arabia</strong>, serving mega-infrastructure projects in Riyadh, Jeddah, Dammam, and NEOM with SASO/SABER approved seaworthy wooden container packaging.
+              <p className="font-inter text-xs text-neutral-500 leading-relaxed font-light">
+                We specialize in delivering exceptional marble, granite, quartz, porcelain, onyx, limestone, sandstone, travertine, slate, and a comprehensive range of stone solutions that embody elegance, durability, and timeless appeal.
               </p>
             </div>
 

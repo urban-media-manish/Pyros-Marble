@@ -11,7 +11,6 @@ import CallToAction from './components/CallToAction';
 import PortsShowcase from './components/PortsShowcase';
 import EnquiryModal from './components/EnquiryModal';
 import InteractiveCollection from './components/InteractiveCollection';
-import SaudiTradeSEO from './components/SaudiTradeSEO';
 import { stones } from './data/stoneData';
 import { ArrowUp, Ship, Heart, Shield, Globe, Award, CheckCircle, Package, ArrowRight, Layers, Mountain, Hammer, Sparkles, Search, Quote, Star, ChevronLeft, ChevronRight, Instagram, Facebook, Linkedin, Calendar, Clock } from 'lucide-react';
 
@@ -626,15 +625,6 @@ export default function App() {
 
               </div>
             </section>
-
-            {/* Comprehensive SEO & Saudi Arabia B2B Trade Section */}
-            <SaudiTradeSEO onEnquireClick={(product) => {
-              if (window.openEnquiryModal) {
-                window.openEnquiryModal(product);
-              } else {
-                navigateTo('contact');
-              }
-            }} />
 
             {/* NEW SECTION: Interactive Processing Journey (Luxury Minimalist 5-Column Grid Layout) */}
             <section className="py-24 bg-[#FAF9F6] border-b border-[#EADCC9] overflow-hidden">

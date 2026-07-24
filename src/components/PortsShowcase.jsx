@@ -9,9 +9,9 @@ const portsList = [
     subtitle: 'North & West India Hub',
     state: 'Gujarat, West Coast', 
     type: 'FCL Container Terminal', 
-    desc: 'Primary maritime dispatch gateway for Indian marble exporter and marble slabs exporter orders. Direct container routes to Saudi Arabia (Jeddah Islamic Port), UAE, USA, and Europe.',
+    desc: 'Primary export clearing hub for Rajasthan white marble, sandstone, quartzite, and engineered quartz slabs with 24/7 container gate clearance.',
     badge: 'North & West India Hub',
-    highlights: ['Marble & Quartz Slabs', 'SASO/SABER KSA Clearance', 'Direct USA & Gulf Routes'],
+    highlights: ['Marble & Quartz Slabs', '24/7 Gate Clearance', 'Direct USA & Europe Routes'],
     stoneIds: ['indian-carrara', 'indian-statuario', 'indian-lilac', 'indian-pistachio', 'teakwood-sandstone', 'kota-blue', 'taj-mahal', 'calacatta-quartz']
   },
   { 
@@ -20,9 +20,9 @@ const portsList = [
     subtitle: 'South India Granite Hub',
     state: 'Tamil Nadu, East Coast', 
     type: 'Granite & Heavy Cargo Hub', 
-    desc: 'Specialized port hub for Indian granite supplier and granite exporter India to Saudi Arabia shipments. Direct ocean freight for Absolute Black, Black Galaxy, and 30mm heavy granite slabs.',
+    desc: 'Historic maritime gateway for South Indian absolute black granite blocks, black galaxy, and heavy slab cargo loads with dedicated rail sidings.',
     badge: 'South India Granite Hub',
-    highlights: ['Absolute Black Granite', 'Saudi Dammam Direct Route', 'Direct APAC & Gulf Routes'],
+    highlights: ['Absolute Black Granite', 'Rail Siding Facility', 'Direct APAC & Gulf Routes'],
     stoneIds: ['absolute-black', 'black-galaxy', 'steel-grey']
   }
 ];
